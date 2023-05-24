@@ -25,7 +25,10 @@ namespace LestomaApiLocal.Modelos.Cultivos
         public Guid? CfgAtdCltAtdId { get; set; }
 
         [Display(Name = "Valor del actuador (PWM)")]
-        public int? CfgAtdCltValor { get; set; }
+        public int? CfgAtdCltPwmValor { get; set; }
+
+        [Display(Name = "Valor del setpoint")]
+        public int? CfgAtdCltStpValor { get; set; }
 
         [Display(Name= "Valor para conocer la sincronizasionde de la configuracion")]
         public bool CfgAtdCltSincronización { get; set; }

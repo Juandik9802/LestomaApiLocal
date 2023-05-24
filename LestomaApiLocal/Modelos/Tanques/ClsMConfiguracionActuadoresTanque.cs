@@ -25,7 +25,10 @@ namespace LestomaApiLocal.Modelos.Tanques
         public Guid? CfgAtdTqsAtdId { get; set; }
 
         [Display(Name = "Valor del actuador (PWM)")]
-        public int? CfgAtdTqsvalor { get; set; }
+        public int? CfgAtdTqsPwmValor { get; set; }
+
+        [Display(Name = "Valor del setpoint")]
+        public int? CfgAtdTqsStpValor { get; set; }
 
         [Display(Name ="Valor para conocer la sincronizasionde de la configuracion")]
         public bool CfgAtdTqsSincronización { get; set; }
