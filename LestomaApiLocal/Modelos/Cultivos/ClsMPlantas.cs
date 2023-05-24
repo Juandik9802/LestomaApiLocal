@@ -11,7 +11,7 @@ namespace LestomaApiLocal.Modelos.Cultivos
         [Display(Name = "Identificador unico")]
         public Guid? PltId { get; set; }
 
-        [Display(Name ="Nombre del pez")]
+        [Display(Name ="Nombre de la planta")]
         [Column(TypeName = "varchar(50)")]
         public String? PtlNombre { get; set; }
     }
